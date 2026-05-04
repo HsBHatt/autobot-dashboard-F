@@ -1,16 +1,17 @@
 {
-  "name": "whatsapp-shopify-bot",
-  "version": "1.0.0",
-  "description": "WhatsApp Shopify Integration Bot",
+  "name": "saim-auto-bot",
+  "version": "2.0.0",
+  "description": "WhatsApp x Shopify automation bot",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "node server.js",
+    "dev": "nodemon server.js"
   },
   "dependencies": {
+    "@hapi/boom": "^10.0.1",
+    "@whiskeysockets/baileys": "^6.7.9",
     "express": "^4.18.2",
-    "whatsapp-web.js": "^1.23.0",
-    "socket.io": "^4.6.1",
-    "qrcode": "^1.5.3",
-    "puppeteer": "^21.0.0"
+    "pino": "^8.17.2",
+    "socket.io": "^4.6.2"
   }
 }
